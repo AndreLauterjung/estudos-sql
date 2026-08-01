@@ -15,3 +15,8 @@ FROM usuario;
 
 
 
+-- "SELECT LIMIT" Seleciona apenas as N primeiras linhas de uma determinada tabela.
+SELECT * FROM usuario LIMIT 2;
+
+
+
