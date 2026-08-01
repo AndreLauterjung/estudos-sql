@@ -20,3 +20,8 @@ SELECT * FROM usuario LIMIT 2;
 
 
 
+-- "ORDER BY" (ascendente) Permite ordenar uma tabela a partir de uma determinada coluna.
+SELECT * FROM usuario
+ORDER BY idade;
+
+
