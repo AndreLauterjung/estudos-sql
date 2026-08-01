@@ -3,12 +3,12 @@ SELECT * FROM usuario; -- Lê-se como: "mostre tudo da tabela usuario". --
 
 
 
--- "SELECT" -- Seleciona apenas colunas específicas de uma tabela.
+-- "SELECT" Seleciona apenas colunas específicas de uma tabela.
 SELECT nome FROM usuario;
 
 
 
--- "SELECT AS" Seleciona colunas especíicas e dá um nome para elas.
+-- "SELECT AS" Seleciona colunas específicas e dá um nome para elas.
 SELECT
     nome AS "Coluna 1"
 FROM usuario;
@@ -22,6 +22,10 @@ SELECT * FROM usuario LIMIT 2;
 
 -- "ORDER BY" (ascendente) Permite ordenar uma tabela a partir de uma determinada coluna.
 SELECT * FROM usuario
-ORDER BY idade;
+ORDER BY idade ASC;
 
 
+
+-- "ORDER BY" (descendente) O inverso do ORDER BY ascendente, ordena uma coluna de forma descendente.
+SELECT * FROM usuario
+ORDER BY idade DESC;
