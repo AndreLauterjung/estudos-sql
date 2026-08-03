@@ -29,3 +29,8 @@ ORDER BY idade ASC;
 -- "ORDER BY" (descendente) O inverso do ORDER BY ascendente, ordena uma coluna de forma descendente.
 SELECT * FROM usuario
 ORDER BY idade DESC;
+
+
+-- "WHERE" Permite criar filtros nas tabelas do banco de dados.
+SELECT * FROM idade
+WHERE idade >= 18;
