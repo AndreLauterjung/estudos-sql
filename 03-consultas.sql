@@ -53,6 +53,7 @@ SELECT * FROM clientes
 WHERE Idade >= 18 AND Pais_Localidade = 'BRASIL';
 
 
--- Filtro de números com operador OR (OU)
+
+-- Filtro de números com operador OR  (OU)
 SELECT * FROM clientes
 WHERE Idade >= 18 OR Pais_Localidade = 'BRASIL';
