@@ -37,4 +37,8 @@ WHERE idade >= 18;
 
 -- Filtro de números
 SELECT * FROM produtos
-WHERE preco >= 1000
+WHERE preco >= 1000;
+
+-- Filtro de textos
+SELECT * FROM produtos
+WHERE Marca_Produto = 'DELL';
