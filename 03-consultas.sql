@@ -34,3 +34,7 @@ ORDER BY idade DESC;
 -- "WHERE" Permite criar filtros nas tabelas do banco de dados.
 SELECT * FROM idade
 WHERE idade >= 18;
+
+-- Filtro de números
+SELECT * FROM produtos
+WHERE preco >= 1000
