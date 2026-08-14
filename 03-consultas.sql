@@ -46,3 +46,8 @@ WHERE Marca_Produto = 'DELL';
 -- Filtro de datas
 SELECT * FROM produtos
 WHERE Data_Venda = '2020-01-01';
+
+
+-- Filtro de números com operador AND (E)
+SELECT * FROM clientes
+WHERE Idade >= 18 AND Pais_Localidade = 'BRASIL';
