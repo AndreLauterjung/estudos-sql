@@ -42,3 +42,7 @@ WHERE preco >= 1000;
 -- Filtro de textos
 SELECT * FROM produtos
 WHERE Marca_Produto = 'DELL';
+
+-- Filtro de datas
+SELECT * FROM produtos
+WHERE Data_Venda = '2020-01-01';
